@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro</h1>
+        <form>
+            <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" required>
+            </div>
+            <div class="form-group">
+                <label for="cpf">Cpf</label>
+                <input type="password" id="cpf" name="cpf" required>
+            </div>
+            <button type="submit" class="btn">Cadastrar</button>
+        </form>
+    </div>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url("https://th.bing.com/th/id/R.99e57739c62076c2a8c3207ef1beb032?rik=yQSx0diQ6JaCfw&riu=http%3a%2f%2f4.bp.blogspot.com%2f-MoXzDn2XBKk%2fThYs64F4qxI%2fAAAAAAAACWM%2ftrVP_C4F_WE%2fs1600%2fbela-paisagem-sobre-montanhas-em-tons-verdes-imagens-imagem-de-fundo-wallpaper-para-pc-computador-tela-gratis-ambiente-de-trabalho.jpg&ehk=C10PBgU9bLSTISXoDDgWa1f8TrXudC149Euqf0H6b7c%3d&risl=&pid=ImgRaw&r=0");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 45px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .container h1 {
+            text-align: center;
+            color: #333333;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555555;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+            
+        }
+
+        .btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+
+
+
+</body>
+
+</html>
