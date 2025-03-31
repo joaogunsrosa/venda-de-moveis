@@ -1,72 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Loja Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            background-image: url("https://via.placeholder.com/1200x800"); /* Exemplo de imagem de fundo */
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+            font-size: 1.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background: black;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+            padding: 5px 10px;
+        }
+        nav a:hover {
+            background: #575757;
+            border-radius: 5px;
+        }
+        .main-content {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap; /* Permite quebra de linha */
+            justify-content: center;
+            gap: 20px; /* Espaçamento entre os cards */
+        }
+        .product-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            text-align: center;
+            background: #fff;
+            width: 200px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para estilo */
+            transition: transform 0.2s ease;
+        }
+        .product-card:hover {
+            transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+        }
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <h1>Bem-vindo à Loja Online</h1>
+    </header>
+    <nav>
+        <a href="casa.html">Home</a>
+        <a href="produtos.html">Produtos</a>
+        <a id="Logar" href="inicio.html">Logar</a>
+    </nav>
 
-    <div id="topo">
-      <a href="">
-        <button id="carinho">carinho</button>
-      </a>
-    <a href="file:///C:/Users/aluno/Downloads/venda-de-moveis-main/venda-de-moveis-main/inicio.html">
-        <button id="logar">logar</button>
-      </a>
+    <h1>Promosão</h1>
     
-      <h1>MOVER</h1>
-        
+    <div class="main-content">
+        <div class="product-card">
+            <img src="https://via.placeholder.com/150" alt="Produto 1">
+            <h2>Produto 1</h2>
+            <p>R$ 1758,99</p>
+            <button>Comprar</button>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/150" alt="Produto 2">
+            <h2>Produto 2</h2>
+            <p>R$ 23,40</p>
+            <button>Comprar</button>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/150" alt="Produto 3">
+            <h2>Produto 3</h2>
+            <p>R$ 3250,99</p>
+            <button>Comprar</button>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/150" alt="Produto 4">
+            <h2>Produto 4</h2>
+            <p>R$ 2478,99</p>
+            <button>Comprar</button>
+        </div>
     </div>
-
-    <h1>equipamentos</h1>
-    <div id="promosão">
-      
-
-      <img src="https://images-na.ssl-images-amazon.com/images/I/619jX0idyAL._AC_SL1000_.jpg" alt="Descrição da imagem">
-      <img src="https://a-static.mlcdn.com.br/1500x1500/batedeira-planetaria-britania-preta-500w-bbp515-11-velocidades/magazineluiza/021214800/a2d88d1beff34c9de5845cce841caf7d.jpg" alt="Descrição da imagem">
-      <img src="https://compradiretaempresas.vtexassets.com/arquivos/ids/165096/image-94a8f85961714fffb035754e421ec04e.jpg?v=637982452197800000" alt="Descrição da imagem">
-      <img src="" alt="Descrição da imagem">
-
-
-
-
-    </div>
-
-
-
-
-
-
-
-
-    <style>
-
-  #topo{
-    background-position: right;
-    background-color: black;
-    border: black;
-    align-items: right;
-    padding: 20px;
-    
-
-  }
-
-  #promosão{
-
-    padding: -100px;
-
-  }
-  img{
-    padding: 20px;
-  }
-
-  
-
-  
-
-    </style>
-
-    
+    <footer>
+        <p>&copy; 2025 Loja Online - Todos os direitos reservados</p>
+    </footer>
 </body>
 </html>
