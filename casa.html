@@ -21,6 +21,7 @@
             padding: 15px 0;
             text-align: center;
             font-size: 1.5em;
+            
         }
         nav {
             display: flex;
@@ -77,9 +78,9 @@
 
         #red{
             border: red;
-            color:red;
+            color:white;
 
-            background-color: black;
+            background: linear-gradient(45deg, #ff7b00, #ff4d00);
 
 
         }
@@ -97,15 +98,38 @@
         #lo{
             color: red;
         }
+
+        button{
+            background-color: greenyellow;
+            border-radius: 40px;
+        }
+
+
+        .logo {
+            font-family: 'Poppins', sans-serif;
+            font-size: 50px;
+            font-weight: bold;
+            color: #fff;
+            background: linear-gradient(45deg, #ff7b00, #ff4d00);
+            padding: 20px 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+
+
+
     </style>
 </head>
 <body>
     <header>
-        <h1>movel</h1>
+        <h1 class="logo">Móvel</h1>
     </header>
     <nav>
         <a href="casa.html">Home</a>
-        <a href="produtos.html">Produtos</a>
+        <a href="sobrenos.html">Sobre nos</a>
         <a id="Logar" href="inicio.html">Logar</a>
     </nav>
 
@@ -114,29 +138,38 @@
     <div class="main-content">
         <div class="product-card">
             <img src="https://th.bing.com/th/id/OIP.U8POfW2hGdhiEiayZ8hsyAHaHa?rs=1&pid=ImgDetMain" alt="Produto 1">
-            <h2>Produto 1</h2>
+            <h2>
+                Samsung Galaxy S22 Ultra Snapdragon 5G Dual SIM 256 GB branco 12 GB RAM - Bom ...</h2>
             <p>R$ 1758,99</p>
+            <p id="lo">20%</p>
             <p id="lo">R$ 1467,99</p>
             <button>Comprar</button>
         </div>
         <div class="product-card">
             <img src="https://www.bing.com/th?id=OPHS.eqRqJPdG36ooQQ474C474&o=5&pid=21.1&w=160&h=160&qlt=100&dpr=1,5&c=8&pcl=f5f5f5" alt="Produto 2">
-            <h2>Produto 2</h2>
+            <h2>PROMOÇÃO
+
+                Lava Louças Brastemp 8 Serviços Cinsa - BLF08AE - 110V</h2>
             <p>R$ 2123,00</p>
+            <p id="lo">40%</p>
             <p id="lo">R$ 1478,99</p>
             <button>Comprar</button>
         </div>
         <div class="product-card">
             <img src="https://th.bing.com/th/id/OIP.pzswq4ETJRoE7ZiidiqyxwHaHa?rs=1&pid=ImgDetMain" alt="Produto 3">
-            <h2>Produto 3</h2>
+            <h2>
+                Betoneira Max 1 Traço 400l 2CV Trifásico 220V - Csm</h2>
             <p>R$ 3250,99</p>
+            <p id="lo">45%</p>
             <p id="lo">R$ 2125,99</p>
             <button>Comprar</button>
         </div>
         <div class="product-card">
             <img src="https://th.bing.com/th/id/R.e24b9518b398e0bcbb3f027e0a0564ec?rik=00ubExkz%2bh5kNg&pid=ImgRaw&r=0" alt="Produto 4">
-            <h2>Produto 4</h2>
+            <h2>
+                Geladeira/ Refrigerador Brastemp Frost Free Inox - Inverse 588L BRE85AK</h2>
             <p>R$ 2478,99</p>
+            <p id="lo">35%</p>
             <p id="lo">R$ 1789,00</p>
             <button>Comprar</button>
         </div>
@@ -144,28 +177,32 @@
     </div>
 
 <h2 id="red">geladeira</h2>
+
+
+
     <div class="main-content">
         <div class="product-card">
             <img src="https://www.bing.com/th?id=OPHS.9%2fLF20zefGqEfA474C474&o=5&pid=21.1&w=160&h=272&qlt=100&dpr=1,5&pcl=f5f5f5" alt="Produto 1">
-            <h2>Produto 1</h2>
+            <h2>
+                Geladeira/ Refrigerador Frost Free 310 Litros Cinsa Electrolux (TF39)</h2>
             <p>R$ 2758,99</p>
             <button>Comprar</button>
         </div>
         <div class="product-card">
             <img src="https://www.bing.com/th?id=OPHS.9s%2fMnNC2WTPKSQ474C474&o=5&pid=21.1&w=160&h=272&qlt=100&dpr=1,5&pcl=f5f5f5" alt="Produto 2">
-            <h2>Produto 2</h2>
+            <h2>Geladeira Eletrolux Frost free Inverter 390l Efficient</h2>
             <p>R$ 5487,97</p>
             <button>Comprar</button>
         </div>
         <div class="product-card">
             <img src="https://www.bing.com/th?id=OPHS.DJCjeCnTwvgDIA474C474&o=5&pid=21.1&w=160&h=272&qlt=100&dpr=1,5&pcl=f5f5f5" alt="Produto 3">
-            <h2>Produto 3</h2>
+            <h2>Geladeira Brastemp Frost Free Duplex 375 Litros Com Compartimento Extrafrio ...</h2>
             <p>R$ 2878,60</p>
             <button>Comprar</button>
         </div>
         <div class="product-card">
             <img src="https://www.bing.com/th?id=OPHS.ODSNAO1fOnwrPw474C474&o=5&pid=21.1&w=148&h=260&qlt=100&dpr=1,5&bw=6&bc=FFFFFF" alt="Produto 4">
-            <h2>Produto 4</h2>
+            <h2>Geladeira Multidoor Im8s Inverter 590 Litros Inox Eletrolux</h2>
             <p>R$ 8457,87</p>
             <button>Comprar</button>
         </div>
@@ -176,25 +213,28 @@
     <div class="main-content">
         <div class="product-card">
             <img src="https://www.bing.com/th?id=OPHS.KuOSnGOw6d0taA474C474&o=5&pid=21.1&w=160&h=272&qlt=100&dpr=1,5&pcl=f5f5f5" alt="Produto 1">
-            <h2>Produto 1</h2>
+            <h2>Geladeira Consul Frost Free Duplex 397 Litros Branca Com Freezer</h2>
             <p>R$ 2898,55</p>
             <button>Comprar</button>
         </div>
         <div class="product-card">
             <img src="https://www.bing.com/th?id=OPHS.neWlRMLyhJ3jxw474C474&o=5&pid=21.1&w=148&h=223&qlt=100&dpr=1,5&bw=6&bc=FFFFFF" alt="Produto 2">
-            <h2>Produto 2</h2>
+            <h2>
+                Geladeira Industrial 6 Portas Em Aço Inox 430 Krasinox 220V</h2>
             <p>R$ 12.487,67</p>
             <button>Comprar</button>
         </div>
         <div class="product-card">
             <img src="https://www.bing.com/th?id=OPHS.CsF8TpHJ1NXoXQ474C474&o=5&pid=21.1&w=148&h=260&qlt=100&dpr=1,5&bw=6&bc=FFFFFF" alt="Produto 3">
-            <h2>Produto 3</h2>
+            <h2>
+                Geladeira Brastemp Frost Free Duplex 400l BRM54JK Inox</h2>
             <p>R$ 3478,60</p>
             <button>Comprar</button>
         </div>
         <div class="product-card">
             <img src="https://www.bing.com/th?id=OPHS.yKNSTh9USTPQdA474C474&o=5&pid=21.1&w=160&h=272&qlt=100&dpr=1,5&pcl=f5f5f5" alt="Produto 4">
-            <h2>Produto 4</h2>
+            <h2>
+                Geladeira/ Refrigerador Continental Frost Free Duplex Prata 472 Litros (TC56S)</h2>
             <p>R$ 3157,87</p>
             <button>Comprar</button>
         </div>
